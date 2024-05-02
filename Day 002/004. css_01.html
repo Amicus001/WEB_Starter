@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS USAGE</title>
+    <style>
+        /*tag name 선택자*/
+        p {background-color: cornflowerblue;}
+        #second {background-color: white; font-size: 45px; border: 1px dotted violet;} /*id 선택자*/
+        
+        /*전체 요소*/
+        * {color: blueviolet;}
+        .para {background-color: cyan;} /*클래스 명이 동일한 태그에 적용하기*/
+    </style>
+</head>
+<body>
+    <!--문단 / 단락 헤드라인 태그-->
+    <p class="para"> this is the first paragraph</p>
+    <h1>this is a h1 text!</h1>
+    <p> this is the first paragraph</p>
+    <p class="para"> this cornflower blue color is pretty</p>
+    <p id="second"> i do not want to apply background colors here</p> <!--id 속성은 unique해야 함. -->
+
+    <!--영역 지정 블럭 태그-->
+    <div class='para'>
+        합삐하ㅃ비합ㅃ;ㅣ<br>
+        아 택배 언제 오냐고<br>
+    </div>
+</body>
+</html>

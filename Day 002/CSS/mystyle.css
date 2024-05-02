@@ -1,0 +1,22 @@
+
+a:link {/*아직 방문하지 않은 링크*/
+text-decoration: solid;
+color: cornflowerblue;
+background-color: white;}
+
+a:visited {/*방문된 링크*/
+text-decoration: solid;
+color: orchid;
+background-color: white;}
+
+a:hover {/*마우스가 링크 위에 있을 때*/
+text-decoration: dashed;
+color: blueviolet}
+
+/*tag name 선택자*/
+p {background-color: cornflowerblue;}
+#second {background-color: white; font-size: 45px; border: 1px dotted violet;} /*id 선택자*/
+     
+/*전체 요소*/
+* {color: blueviolet;}
+.para {background-color: cyan;} /*클래스 명이 동일한 태그에 적용하기*/
