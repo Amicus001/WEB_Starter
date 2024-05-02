@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>INPUT IMAGE</title>
+</head>
+<body>
+    <h2>SELECT IMAGE</h2><hr color="lavender" size="5">
+
+
+    <form method="post" action="/cgi-bin/send_img_data.py" enctype="multipart/form-data">
+
+ 
+    <input type="file" name="image_file"placeholder="image/png, image/jpeg"><br>
+    <input type = "text" name="message" placeholder="message sending"><br>
+    <input type="submit"> <!--form 태그가 없으면 그저 ui 버튼(장식).-->
+    </form>
+</body>
+</html>
